@@ -1,0 +1,16 @@
+#scroll::-webkit-scrollbar{
+  height: 40px;
+  background-color: white;
+}
+
+#scroll::-webkit-scrollbar-track{
+  background-color: white;
+}
+#scroll::-webkit-scrollbar-thumb{
+  background-image: url(../img/scroll.jpg) ;
+  width: 15px !important;
+  /*height: 20px;*/
+}
+#scroll::-webkit-resizer{
+  height: 20px;
+}

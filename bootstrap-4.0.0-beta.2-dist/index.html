@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+
+  <!-- <link rel="stylesheet" href="css/custom-scroll.css"> -->
+  <link type="text/css" rel="stylesheet" href="css/jquery.jscrollpane.css"/>
+  <title>Document</title>
+</head>
+<body>
+  <div class="lg-margins">
+    <header class="head-practice">
+      <img src="img/bg-image.jpg" alt="" class="head-bg">
+
+      <div class="practice-brand">
+        <div class="menu-portfolio">
+          <p class="">
+            <span onclick="switchMenu()" class="fa fa-bars" aria-hidden="true"></span>
+            <span class="hidden-xs">ПОРТФОЛИО</span>
+          </p>
+        </div>
+        <div class="hidden-xs angle-changer angle-left">
+            <i class="fa fa-angle-left fa-inverse" aria-hidden="true"></i>
+        </div>
+        <div class="hidden-xs angle-changer angle-right">
+            <i class="fa fa-angle-right fa-inverse" aria-hidden="true"></i>
+        </div>
+        <div class="name-brand">
+            <span class="hidden-xs">КОТТЕДЖНЫЙ ПОСЁЛОК</span><span> "RIGHT BANK"</span>
+        </div>
+        <div class="triangle">
+
+        </div>
+      </div>
+      <div class="portfolio-change-menu">
+        <ul>
+          <li><a href="#about">О нас</a></li>
+          <li><a href="#dscr">Описание</a></li>
+          <li><a href="#person">Участники</a></li>
+          <li><a href="#projects">Другие проекты</a></li>
+        </ul>
+      </div>
+
+      <div class="share-practice hidden-xs">
+        <i class="fa fa-share" aria-hidden="true"></i>
+        <span>ПОДЕЛИТЬСЯ</span>
+        <i class="share-button fa fa-instagram" aria-hidden="true"></i>
+        <i class="share-button fa fa-vk" aria-hidden="true"></i>
+      </div>
+
+      <div class="bottom-angle-changer">
+        <i class="bottom-angle-left fa fa-angle-left fa-inverse" aria-hidden="true"></i>
+        <i class="bottom-angle-right fa fa-angle-right fa-inverse" aria-hidden="true"></i>
+        <p class="switch-circle">
+          <i id="circle-1" class="fa fa-circle" aria-hidden="true"></i>
+          <i id="circle-2" class="fa fa-circle" aria-hidden="true"></i>
+          <i id="circle-3" class="fa fa-circle" aria-hidden="true"></i>
+          <i id="circle-4" class="fa fa-circle" aria-hidden="true"></i>
+          <i id="circle-5" class="fa fa-circle" aria-hidden="true"></i>
+        </p>
+      </div>
+    </header>
+</div>
+<div class="dscr-background">
+    <img src="img/dscr.jpg" style="position: absolute; top: -36px; z-index: -1; width: 100%; height: 110%;" class="hidden-lg" alt="">
+    <!-- <img src="img/dscr-triangle1.jpg" alt="" style="position: absolute; z-index: -1; top: 10%; left: -15%;" class="hidden-lg"> -->
+    <!-- <img src="img/dscr-triangle2.jpg" alt="" style="position: absolute; z-index: -1; right: 0; bottom: -36px;" class="hidden-lg"> -->
+    <div class="container margin-top">
+      <div class="row">
+        <a name="about"></a>
+        <div class="cell col-lg-4 col-md-4 col-sm-12 col-xs-12 first-cell">
+          <p>
+            <h3>Местоположение:</h3>
+            <span>Россия, г. Москва, ул. Прибрежная 1</span>
+          </p>
+          <p>
+            <h3>Цель:</h3>
+            <span>Создать модель загородного коттеджного посёлка </span>
+          </p>
+        </div>
+        <div class="cell col-lg-4 col-md-4 col-sm-12 col-xs-12  second-cell">
+          <p>
+            <h3>Площадь:</h3>
+            <span>2 548 м<sup>2</sup></span>
+          </p>
+          <p>
+            <h3>Над проектом работали:</h3>
+            <span>2 548 м<sup>2</sup></span>
+          </p>
+        </div>
+        <div class="cell col-lg-4 col-md-4 col-sm-12 col-xs-12">
+          <p>
+            <h3>Год:</h3>
+            <span>2015</span>
+          </p>
+          <p>
+            <h3>Итог:</h3>
+            <span>Посёлок находится в стадии стролительства</span>
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container margin-top">
+      <!-- <div class="row"> -->
+      <a name="dscr"></a>
+        <h2>Описание</h2>
+        <div style="background-color: #2e4ed6" class="border-line-h"></div>
+      <!-- </div> -->
+        <div>
+
+          <p>Жилой комплекс бизнес класса «Правый берег» удачно расположен в
+            городе Химки на берегу канала им. Москвы. Окруженный зеленью
+            с собственным выходом к воде он не оставит равнодушным даже самого
+            искушенного покупателя. В проекте использованы преимущества
+            близости к воде в сочетании с передовыми архитектурными и
+            техническими решениями</p>
+
+          <p>Собственная благоустроенная набережная и комплексное озеленение
+            создают комфортную территорию для отдыха жителей, а детские
+            площадки с современными развивающими игровыми городками идеально
+            подходят для прогулок с детьми</p>
+
+          <p>Двухуровневый подземный паркинг рассчитан на 790 машино-мест и представляет
+             собой отапливаемые помещения, оснащенные современными коммуникациями.
+            Доступ в паркинг осуществляется на лифтах непосредственно из жилой зоны.
+            Проектировщиками разработаны системы транспортной логистики въездов
+            и выездов из паркинга, а также движения автотранспорта
+            по подземной части комплекса.</p>
+
+            <div class="delimiter" id="del-1">
+                <span style="width: 12%" class="dscr-button" id="open-dscr">
+                  <span class="hidden-sm hidden-xs">Читать далее</span>
+                  <!-- <span class="hidden-no-xs">Далее</span> -->
+                  <i class="fa fa-angle-down" aria-hidden="true"></i>
+
+                </span>
+                <span style="width: 88%"class="border-line"></span>
+
+              </div>
+
+          <div class="hidden-text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Ex quaerat illum suscipit dolor praesentium eveniet quo iure,
+              aperiam fuga quibusdam!</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Nam sint quidem fuga sunt quas aut fugit eaque, a voluptate, odit
+              voluptatibus ad! Reprehenderit aperiam nulla aliquid quaerat
+               esse debitis velit natus laudantium doloribus, assumenda.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Incidunt culpa beatae non pariatur. Impedit, corporis.
+              Eveniet aliquid explicabo voluptatem cupiditate accusamus
+               eaque dignissimos aperiam?</p>
+
+               <div class="delimiter" id="del-2">
+                   <span style="width: 9%" class="dscr-button" id="close-dscr">
+                     <span class="hidden-sm hidden-xs">Свернуть</span>
+                     <i class="fa fa-angle-up" aria-hidden="true"></i>
+
+                   </span>
+                   <span style="width: 91%"class="border-line"></span>
+
+                 </div>
+          </div>
+
+        </div>
+      </div>
+    <!-- </div> -->
+
+  <div class="container margin-top">
+    <div>
+      <a name="person"></a>
+      <h2>Над проектом работали:</h2>
+      <div style="background-color: #e0bf22" class="border-line-h"></div>
+    </div>
+    <div class="row">
+      <div class="actor col-4 col-xs-12">
+        <img class="actor-practice" src="img/PROKOPENKO.png" alt="">
+        <p>Главный архитектор</p>
+        <h4>Александр Прокопенко</h4>
+      </div>
+      <div class="actor col-4 col-xs-12">
+        <img class="actor-practice" src="img/Devushka.png" alt="">
+        <p>3D Дизайнер</p>
+        <h4>Мария Харитонова</h4>
+      </div>
+      <div class="actor col-4 col-xs-12">
+        <img class="actor-practice" src="img/Gordeev.png" alt="">
+        <p>Менеджер проекта</p>
+        <h4>Михаил Гордеев</h4>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid margin-top" id="no-padding">
+  <a name="projects"></a>
+  <div class="row" >
+    <div class="scrolling-block" id="scroll">
+        <img id="image-1" class="scroll-img" src="img/scroll/4.jpg" alt="" >
+        <div class="dscr-img" id="d-img-1">
+          <p class="dscr-bottom">
+            <span>Lorem ipsum dolor sit amet.</span>
+            <br>
+            <i class="fa fa-calendar" aria-hidden="true"></i>
+            <span class="small-text">2015</span>
+          </p>
+        </div>
+        <img id="image-2" class="scroll-img" src="img/scroll/3.jpg" alt="" >
+        <div class="dscr-img" id="d-img-2">
+          <p class="dscr-bottom">
+            <span>Lorem ipsum dolor sit amet.</span>
+            <br>
+            <i class="fa fa-calendar" aria-hidden="true"></i>
+            <span class="small-text">2015</span>
+          </p>
+        </div>
+        <img id="image-3" class="scroll-img" src="img/scroll/2.jpg" alt="" >
+        <div class="dscr-img" id="d-img-3">
+          <p class="dscr-bottom">
+            <span>Lorem ipsum dolor sit amet.</span>
+            <br>
+            <i class="fa fa-calendar" aria-hidden="true"></i>
+            <span class="small-text">2016</span>
+          </p>
+        </div>
+        <img id="image-4" class="scroll-img" src="img/scroll/1.jpg" alt="" >
+        <div class="dscr-img" id="d-img-4">
+          <p class="dscr-bottom">
+            <span>Lorem ipsum dolor sit amet.</span>
+            <br>
+            <i class="fa fa-calendar" aria-hidden="true"></i>
+            <span class="small-text">2014</span>
+          </p>
+        </div>
+        <div class="dark-background"></div>
+
+    </div>
+    <!-- <div class="scroller_bar"></div> -->
+  </div>
+</div>
+
+<!-- <div id="image-1" class="scroll-img">
+
+  <div style="display: none;" class="dark-background"></div>
+  <div style="display: none;" class="dscr-img">
+  <h3>Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
+  <i class="fa fa-calendar fa-inverse" aria-hidden="true"></i>
+  <span>2015</span>
+</div>
+</div>
+<div id="image-2" class="scroll-img">
+
+</div>
+<div id="image-3" class="scroll-img">
+
+</div>
+<div id="image-4" class="scroll-img">
+
+</div> -->
+
+  </div>
+
+  <footer class="footer-practice">
+    <img src="img/footer.jpg" alt="" style="z-index: -1;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-1 col-md-3 col-sm-12 col-xs-12 xs-align">Бюро</div>
+        <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 xs-align">Портфолио</div>
+        <div class="col-lg-1 col-md-3 col-sm-12 col-xs-12 xs-align">Блог</div>
+        <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 xs-align">Контакты</div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-2 col-md-6 col-sm-12 col-xs-12 xs-align">8 (495) 946-94-60</div>
+        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 xs-align">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+          <i class="fa fa-vk" aria-hidden="true"></i>
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+          <i class="fa fa-odnoklassniki" aria-hidden="true"></i>
+        </div>
+        <div class="border-footer"></div>
+      </div>
+
+      <div class="row">
+        <div style="text-align: center;" class="col-12">
+          <p>© 2015, Ребрус. Все права защищены.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script
+    src="http://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="jscrollpane.js"></script>
+    <!-- <script src="jquery.custom-scroll.js"></script> -->
+  <script type="text/javascript">
+
+    var idImage;
+    var idChanger = 1;
+    var switchCount = 0;
+    var firstChange = 0;
+
+    // var wrapper = getElementById('wrapper');
+    // var scroller = getElementById('scroller');
+    // var container = getElementById('container');
+
+    function switchMenu(){
+      // console.log('i am dead');
+      if (switchCount == 0){
+        if(firstChange == 0){
+          $(".portfolio-change-menu").slideUp(0);
+          $(".portfolio-change-menu").animate({
+            top: 63,
+          }, 0);
+          firstChange = 1;
+        }
+          $(".portfolio-change-menu").slideDown(500);
+          switchCount = 1;
+      } else{
+          $(".portfolio-change-menu").slideUp(500);
+        // $('.portfolio-change-menu').animate({
+        //   top: -83,
+        // }, 1200);
+        switchCount = 0;
+      }
+    }
+
+    function changeIdImage(id) {
+      if (id == 1){
+        $(".angle-left").addClass('no-change');
+        $(".bottom-angle-left").addClass('no-change');
+        $("#circle-2").removeClass('changed-circle');
+        $("#circle-1").addClass('changed-circle');
+      } else if (id == 5){
+        $(".angle-right").addClass('no-change');
+        $(".bottom-angle-right").addClass('no-change');
+        $("#circle-4").removeClass('changed-circle');
+        $("#circle-5").addClass('changed-circle');
+      } else {
+        $(".angle-left").removeClass('no-change');
+        $(".bottom-angle-left").removeClass('no-change');
+        $(".angle-right").removeClass('no-change');
+        $(".bottom-angle-right").removeClass('no-change');
+        $(".switch-circle").find(".changed-circle").removeClass('changed-circle');
+        $("#circle-" + id).addClass('changed-circle');
+      }
+    }
+
+
+    $(document).ready(function(){
+
+      $(".scrolling-block").jScrollPane({autoReinitialise: true, autoReinitialiseDelay: 100});
+      $(window).resize(function(){
+        if(screen.width <= 1024){
+          $(".scrolling-block").jScrollPane().data('jsp').destroy();
+        } else{
+          $(".scrolling-block").jScrollPane({autoReinitialise: true, autoReinitialiseDelay: 100});
+        }
+      })
+
+      // $(window).resize(function() {
+      //   $(".scrolling-block").reinitialise();
+      // })
+      // $(window).resize(function(){
+      //   if(screen.width <= 1024 ){
+      //     console.log('i am alive');
+      //     $(".scrolling-block").jScrollPane().data('jsp').destroy();
+      //   } else{
+      //     console.warn(screen.width);
+      //     console.log('not yet');
+      //     $(".scrolling-block").jScrollPane();
+      //   }
+      // })
+
+      // $(".scrolling-block").jScrollPane(){
+      //   showArrows: false,
+      //   horizontalGutter: 40
+      // };
+      // $('.scrolling-block').customScroll();
+      // $("portfolio-change-menu").slideUp(1);
+      // alert('Я робю!');
+      changeIdImage(1);
+
+
+      $(".angle-left").click(function () {
+        if (idChanger != 1){
+          idChanger--;
+        }
+        changeIdImage(idChanger);
+      })
+      $(".angle-right").click(function () {
+        if (idChanger != 5){
+          idChanger++;
+        }
+        changeIdImage(idChanger);
+      })
+      $(".bottom-angle-left").click(function () {
+        if (idChanger != 1){
+          idChanger--;
+        }
+        changeIdImage(idChanger);
+      })
+      $(".bottom-angle-right").click(function () {
+        if (idChanger != 5){
+          idChanger++;
+        }
+        changeIdImage(idChanger);
+      })
+
+      $("#open-dscr").click(function() {
+        $("#del-1").hide(100);
+        $(".hidden-text").show(500);
+        $("#del-2").show(500);
+      })
+
+      $("#close-dscr").click(function() {
+        $("#del-2").hide(100);
+        $(".hidden-text").hide(500);
+        $("#del-1").show(500);
+      })
+
+
+
+      $(".scroll-img").mouseenter(function() {
+        if(this.id == "image-1"){
+          $("#d-img-1").fadeIn(200);
+        } else if (this.id == "image-2"){
+          $("#d-img-2").fadeIn(200);
+        } else if (this.id == "image-3"){
+          $("#d-img-3").fadeIn(200);
+        } else{
+          $("#d-img-4").fadeIn(200);
+        }
+        // var leftIndent = 0;
+        // console.log(this.id);
+        // if (this.id == 'image-1'){
+        //   leftIndent = 0;
+        // } else if (this.id == 'image-2'){
+        //   leftIndent = 1;
+        // } else if (this.id == 'image-3'){
+        //   leftIndent = 2;
+        // } else {
+        //   leftIndent = 3;
+        // }
+        // $(this).attr('style', '')
+        // $(".scrolling-block").append('<span style="position: absolute; top: 15%; left:' + 45*leftIndent + '%; z-index: 15;">Androxus</span>')
+        // $(this.id).find('.dark-background').attr('style', 'left:' + 45*leftIndent + '%;' );
+        // $(this).find('.dscr-img').attr('style', '');
+
+      })
+      $(".dscr-img").mouseleave(function() {
+        if(this.id == "d-img-1"){
+          $("#d-img-1").fadeOut(200);
+        } else if (this.id == "d-img-2"){
+          $("#d-img-2").fadeOut(200);
+        } else if (this.id == "d-img-3"){
+          $("#d-img-3").fadeOut(200);
+        } else{
+          $("#d-img-4").fadeOut(200);
+        }
+
+        // console.warn('out', this.id);
+      })
+    })
+
+  </script>
+</body>
+</html>
